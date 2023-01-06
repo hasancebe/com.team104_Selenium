@@ -60,9 +60,9 @@ public class C02_ExampleHandle {
         //degilse False yazdırın.
         int dropDownMenuSize=optionsList.size();
         System.out.println("liste boyutu "+dropDownMenuSize);
-        System.out.println(dropDownMenuSize == 4);
+        //System.out.println(dropDownMenuSize == 4);
 
-        //Assert.assertTrue(dropDownMenuSize==4);
+        Assert.assertTrue(dropDownMenuSize==4);
 
     }
 
