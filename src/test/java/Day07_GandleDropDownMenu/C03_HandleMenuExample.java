@@ -43,7 +43,13 @@ public class C03_HandleMenuExample {
         userName.sendKeys("username");
 
         //4. Password kutusuna “password.” yazin
+        WebElement passWord= driver.findElement(By.xpath("//input[@type='password']"));
+        passWord.sendKeys("password");
+
         //5. Sign in tusuna basin
+        WebElement submitButton= driver.findElement(By.xpath("//input[@type='submit']"));
+        submitButton.click();
+
         //6. Pay Bills sayfasina gidin
         //7. “Purchase Foreign Currency” tusuna basin
         //8. “Currency” drop down menusunden Eurozone’u secin
