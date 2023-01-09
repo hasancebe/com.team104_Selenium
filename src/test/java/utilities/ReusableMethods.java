@@ -1,4 +1,4 @@
-package utulities;
+package utilities;
 
 public class ReusableMethods {
     public static void wait(int second){
